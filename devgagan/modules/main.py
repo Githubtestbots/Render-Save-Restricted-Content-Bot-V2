@@ -4,7 +4,7 @@
 #              and uploading them back to Telegram.
 # Author: Gagan
 # GitHub: https://github.com/devgaganin/
-# Telegram: https://t.me/team_spy_pro
+# Telegram: https://t.me/Test_original_chat
 # YouTube: https://youtube.com/@dev_gagan
 # Created: 2025-01-11
 # Last Modified: 2025-01-11
@@ -130,7 +130,7 @@ async def initialize_userbot(user_id): # this ensure the single startup .. even 
     data = await db.get_data(user_id)
     if data and data.get("session"):
         try:
-            device = 'iPhone 16 Pro' # added gareebi text
+            device = 'iPhone RENDER 16 Pro' # added gareebi text
             userbot = Client(
                 "userbot",
                 api_id=API_ID,
@@ -250,7 +250,7 @@ async def batch_link(_, message):
                     msg = await app.send_message(message.chat.id, f"Processing...")
                     await process_and_upload_link(userbot, user_id, msg.id, link, 0, message)
                     await pin_msg.edit_text(
-                        f"Batch process started ⚡\nProcessing: {i - cs + 1}/{cl}\n\n**__Powered by Team SPY__**",
+                        f"Batch process started ⚡\nProcessing: {i - cs + 1}/{cl}\n\n**__Powered by Team SKS__**",
                         reply_markup=keyboard
                     )
                     normal_links_handled = True
@@ -276,13 +276,13 @@ async def batch_link(_, message):
                     msg = await app.send_message(message.chat.id, f"Processing...")
                     await process_and_upload_link(userbot, user_id, msg.id, link, 0, message)
                     await pin_msg.edit_text(
-                        f"Batch process started ⚡\nProcessing: {i - cs + 1}/{cl}\n\n**__Powered by Team SPY__**",
+                        f"Batch process started ⚡\nProcessing: {i - cs + 1}/{cl}\n\n**__Powered by Team SKS__**",
                         reply_markup=keyboard
                     )
 
         await set_interval(user_id, interval_minutes=300)
         await pin_msg.edit_text(
-            f"Batch completed successfully for {cl} messages 🎉\n\n**__Powered by Team SPY__**",
+            f"Batch completed successfully for {cl} messages 🎉\n\n**__Powered by Team SKS__**",
             reply_markup=keyboard
         )
         await app.send_message(message.chat.id, "Batch completed successfully! 🎉")
