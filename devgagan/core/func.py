@@ -2,7 +2,7 @@
 # File Name: func.py
 # Description: A Pyrogram bot for downloading files from Telegram channels or groups 
 #              and uploading them back to Telegram.
-# Author: Gagan
+# Author: Gagan 
 # GitHub: https://github.com/devgaganin/
 # Telegram: https://t.me/team_spy_pro
 # YouTube: https://youtube.com/@dev_gagan
@@ -250,7 +250,7 @@ async def progress_callback(current, total, progress_message):
     f"│ **__Progress:__** {percent:.2f}%\n"
     f"│ **__Uploaded:__** {current_mb:.2f} MB / {total_mb:.2f} MB\n"
     f"╰──────────────────╯\n\n"
-    f"**__Powered by Team SPY__**"
+    f"**__Powered by Team SKS__**"
         )
 
         last_update_time = current_time
