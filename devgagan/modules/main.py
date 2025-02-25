@@ -44,7 +44,7 @@ async def process_and_upload_link(userbot, user_id, msg_id, link, retry_count, m
             await app.delete_messages(user_id, msg_id)
         except Exception:
             pass
-        await asyncio.sleep(15)
+        await asyncio.sleep(5)
     finally:
         pass
 
@@ -66,7 +66,7 @@ async def check_interval(user_id, freecheck):
 
     return True, None
 
-async def set_interval(user_id, interval_minutes=45):
+async def set_interval(user_id, interval_minutes=35):
     now = datetime.now()
     # Set the cooldown interval for the user
     interval_set[user_id] = now + timedelta(seconds=interval_minutes)
