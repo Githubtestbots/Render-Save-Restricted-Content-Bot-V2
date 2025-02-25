@@ -4,7 +4,7 @@
 #              and uploading them back to Telegram.
 # Author: Gagan
 # GitHub: https://github.com/devgaganin/
-# Telegram: https://t.me/team_spy_pro
+# Telegram: https://t.me/Test_original_chat
 # YouTube: https://youtube.com/@dev_gagan
 # Created: 2025-01-11
 # Last Modified: 2025-01-11
@@ -42,7 +42,7 @@ async def devggn_boot():
                 and uploading them back to Telegram.
 👨‍💻 Author: Gagan
 🌐 GitHub: https://github.com/devgaganin/
-📬 Telegram: https://t.me/team_spy_pro
+📬 Telegram: https://t.me/Test_original_chat
 ▶️ YouTube: https://youtube.com/@dev_gagan
 🗓️ Created: 2025-01-11
 🔄 Last Modified: 2025-01-11
